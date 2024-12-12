@@ -1,16 +1,5 @@
 import React from 'react';
-// import ReactDom from 'react-dom/client';
 import './App.css';
-
-// const root = ReactDom.createRool(document.getElementById("root")!);
-
-// root.render(
-//   <div>
-//     <React.StrictMode>
-//       <App />
-//     </React.StrictMode>
-//   </div>
-// )
 
 function App() {
   return (
