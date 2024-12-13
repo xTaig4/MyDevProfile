@@ -1,12 +1,27 @@
-.project {
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+
+    width: 250px;
+    height: 450px;
+    background-color: #79c47b; 
+    color: white;
+    display: flex;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .project-image {
-    height: 100px;
-    width: auto;
+    max-height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container.hovered {
+    transform: scale(1.2); /* Enlarge the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
