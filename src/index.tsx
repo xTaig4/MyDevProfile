@@ -6,6 +6,8 @@ import App from './components/App.tsx';
 import Home from './components/Home.tsx';
 import ProjectList from './components/ProjectList.tsx';
 import NavigationBar from './components/NavigationBar.tsx';
+import Grid from './components/Grid.tsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 
@@ -15,10 +17,10 @@ root.render(
       <title>My Profile</title>
       <NavigationBar />
 
-      <Home />
-      <App />
-
-      <ProjectGallery />
+      <Home/>
+      <Grid/>
+      <App/>
+      <ProjectGallery/>
    
 
       <button className="btn" onClick={() => {
