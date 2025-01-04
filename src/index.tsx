@@ -21,14 +21,14 @@ root.render(
       <ProjectGallery />
    
 
-      <button className="btn" onClick={() => {
+      {/* <button className="btn" onClick={() => {
         window.scroll({
           top: 0,
           behavior: 'smooth',
         });
       }}>
         Jump to Top
-      </button>
+      </button> */}
 
     </React.StrictMode>
   </div>

@@ -1,27 +1,32 @@
 .column-container {
     background-color: #F1F8E8;
-    display: flex;
-    flex-wrap: wrap;
-    /* Allows wrapping on smaller screens */
+    
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 20px;
-    gap: 20px;
-    /* Adds space between columns */
+    flex-wrap: wrap;
+    column-gap: 50px;
+    display: flex;
+    min-height: 100vh;
 }
 
 .left-column {
     flex: 1;
+    display: flex;
     min-width: 250px;
     max-width: 600px;
-    padding: 20px;
-    border-radius: 25px;
-    text-align: center;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    min-width: 250px;
+    max-width: 500px;
+
 }
 
 #quote {
-    font-size: 1.5em;
+    font-size: 3.5em;
     font-style: normal;
     margin-bottom: 20px;
 
@@ -47,23 +52,12 @@
 
 }
 
-.right-column {
-    flex: 1;
-    min-width: 250px;
-    max-width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .imgContainer {
     border-radius: 25px;
     overflow: hidden;
-    /* Hides any overflow if the image is too big */
     max-width: 800px;
-    /*Scales the image down to fit within the container */
     max-height: 800px;
-    /* Ensures the image doesn’t overflow the container vertically */
 }
 
 #myImg {
@@ -74,6 +68,4 @@
     width: 100%;
     /* Adjusts the container height, full viewport in this case */
     object-fit: contain;
-    /*Keeps the aspect ratio while fitting the container */
-
 }

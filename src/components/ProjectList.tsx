@@ -5,6 +5,7 @@ import Project from './Project.tsx';
 function ProjectList(props) {
     return(
         <div className="myProject">
+            <h2></h2>
             <h2>My projects</h2>
             <div className="project-list">
                 {props.projects.map(function (project) {
