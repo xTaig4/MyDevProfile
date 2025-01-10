@@ -4,35 +4,18 @@ import React from 'react'
 const Grid: React.FC = () => {    
     return (
         <div className="Section">
-            <div className="row">
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-            </div>
+            <div className="grid">
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
 
-            <div className="row">
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
-                <div className="Column">
-                    <image className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></image>
-                </div>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
+                <img className="img" src="https://www.nemprogrammering.dk/Billeder/PNG/csharp.png"></img>
             </div>
+            
         </div>
     );
 }

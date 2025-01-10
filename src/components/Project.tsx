@@ -34,8 +34,5 @@ function Project(props) {
     )
 }
 
-function redirectTo() {
-    
-}
 
 export default Project;

@@ -1,22 +1,15 @@
 .Section{
-    min-height: 100vh;
     background-color: #282c34;
-}
-
-.row {
+    min-height: 100vh;
+  }
+  
+  .grid {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px; 
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    gap: 100px;
+  }
+  
+  .img{
+    width: 20%;
 }
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }

@@ -3,7 +3,7 @@ import React from 'react';
 import Project from './Project.tsx';
 
 function ProjectList(props) {
-    return(
+    return (
         <div className="myProject">
             <h2></h2>
             <h2>My projects</h2>
